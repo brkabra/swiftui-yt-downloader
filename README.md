@@ -38,10 +38,10 @@ This is a future macOS app built with SwiftUI that will serve as a simple YouTub
 
 ## 🧪 Status
 
-🟡 Learning phase — development hasn’t started yet. This repo is here to show intent, track milestones, and keep me accountable as I go.
+🟡 Learning phase, development hasn’t started yet. This repo is here to show intent, track milestones, and keep me accountable as I go.
 
 ---
 
 ## 📚 Learning Disclaimer
 
-This is a beginner project. I'm learning Swift and Xcode as I go, so some parts may be incomplete or inefficient. Feel free to leave tips or feedback — I’m here to improve.
+This is a beginner project. I'm learning Swift and Xcode as I go, so some parts may be incomplete or inefficient. Feel free to leave tips or feedback,  I’m here to improve.
