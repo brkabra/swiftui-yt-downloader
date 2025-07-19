@@ -75,7 +75,7 @@
 		C37F051A2E2B2247000FADA4 = {
 			isa = PBXGroup;
 			children = (
-				C37F05252E2B2247000FADA4 /* HelloTools Dashboard */,
+				C37F056B2E2B35A9000FADA4 /* New Group */,
 				C37F05342E2B224A000FADA4 /* HelloTools DashboardTests */,
 				C37F053E2E2B224A000FADA4 /* HelloTools DashboardUITests */,
 				C37F05242E2B2247000FADA4 /* Products */,
@@ -90,6 +90,14 @@
 				C37F053B2E2B224A000FADA4 /* HelloTools DashboardUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C37F056B2E2B35A9000FADA4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C37F05252E2B2247000FADA4 /* HelloTools Dashboard */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
