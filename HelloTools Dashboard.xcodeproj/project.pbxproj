@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		C37F056A2E2B356D000FADA4 /* Learning_Log.md in Resources */ = {isa = PBXBuildFile; fileRef = C37F05682E2B355F000FADA4 /* Learning_Log.md */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		C37F05322E2B224A000FADA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -31,8 +27,17 @@
 		C37F05232E2B2247000FADA4 /* HelloTools Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloTools Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37F05312E2B224A000FADA4 /* HelloTools DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloTools DashboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37F053B2E2B224A000FADA4 /* HelloTools DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloTools DashboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C37F05682E2B355F000FADA4 /* Learning_Log.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Learning_Log.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C37F05892E2B3A4F000FADA4 /* Exceptions for "Logs 2" folder in "HelloTools DashboardUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				learning_log.md,
+			);
+			target = C37F053A2E2B224A000FADA4 /* HelloTools DashboardUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C37F05252E2B2247000FADA4 /* HelloTools Dashboard */ = {
@@ -48,6 +53,14 @@
 		C37F053E2E2B224A000FADA4 /* HelloTools DashboardUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "HelloTools DashboardUITests";
+			sourceTree = "<group>";
+		};
+		C37F05882E2B3A4F000FADA4 /* Logs 2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C37F05892E2B3A4F000FADA4 /* Exceptions for "Logs 2" folder in "HelloTools DashboardUITests" target */,
+			);
+			path = "Logs 2";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -81,10 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				C37F05252E2B2247000FADA4 /* HelloTools Dashboard */,
-				C37F056B2E2B35A9000FADA4 /* New Group */,
 				C37F05342E2B224A000FADA4 /* HelloTools DashboardTests */,
 				C37F053E2E2B224A000FADA4 /* HelloTools DashboardUITests */,
 				C37F05242E2B2247000FADA4 /* Products */,
+				C37F05882E2B3A4F000FADA4 /* Logs 2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,14 +109,6 @@
 				C37F053B2E2B224A000FADA4 /* HelloTools DashboardUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C37F056B2E2B35A9000FADA4 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				C37F05682E2B355F000FADA4 /* Learning_Log.md */,
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +174,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C37F053E2E2B224A000FADA4 /* HelloTools DashboardUITests */,
+				C37F05882E2B3A4F000FADA4 /* Logs 2 */,
 			);
 			name = "HelloTools DashboardUITests";
 			packageProductDependencies = (
@@ -226,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37F056A2E2B356D000FADA4 /* Learning_Log.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
