@@ -20,13 +20,13 @@ struct ContentView: View {
                 .fixedSize(horizontal: true, vertical: true)
 
             // 3. First Button: Set message to "Hello, Brook!"
-            Button("PERSONA") {
-                message = "joker persona 5 -_-"
+            Button("enter") {
+                message = "zooooom"
             }
 
             // 4. Second Button: Set message to "Goodbye, Brook!"
-            Button("Goodbye, Brook") {
-                message = "You have been successfully logged out"
+            Button("log out") {
+                message = "You have been successfully logged out."
             }
         }
         .padding()
